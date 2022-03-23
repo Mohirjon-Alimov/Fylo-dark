@@ -1,0 +1,52 @@
+.section-4 {
+  width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 360px;
+}
+.section-4__person-quotes {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.person-quotes__person-quotes-list ~ .person-quotes__person-quotes-list {
+  margin-left: 40px;
+}
+.person-quotes__person-quotes-list {
+  width: 360px;
+  height: 200px;
+  padding: 40px 25px 0px 25px;
+  position: relative;
+  background-color: #202A3C;
+  box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+  border-radius: 4px;
+  p {
+    color: #FFFFFF;
+  }
+}
+.section-4__person-quotes::before {
+  content: url(../../../img/bgc-img5.svg);
+  width: 55px;
+  height: 45px;
+  position: relative;
+  top: -38px;
+  left: 48px;
+}
+.person-info {
+  width: 133px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 7px;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    span {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+}

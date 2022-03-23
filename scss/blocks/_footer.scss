@@ -1,0 +1,131 @@
+footer {
+  
+  background-color: #0B1524;
+}
+.container3 {
+  width: 1440px;
+  height: 517px;
+  padding-left: 120px;
+  padding-right: 80px;
+  margin-left: auto;
+  margin-right: auto;  
+  position: relative;
+}
+.container3__form-list {
+  width: 863px;
+  height: 275px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: -140px;
+  left: 300px;
+  background-color: #1B2330;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
+  border-radius: 9px; 
+  h2 {
+    margin: 0;
+    margin-top: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+  }
+  p {
+    width: 673px;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+.form-list__form-list-form {
+
+  input {
+    width: 480px;
+    height: 48px;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding-left: 38px;
+    border: 0;
+  }
+  button {
+    width: 200px;
+    height: 48px;
+    background-image: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 24px;
+    border: 0;
+    margin-left: 29px;
+    color: #fff;
+  }
+}
+.logo-img {
+  position: absolute;
+  top: 180px;
+}
+.container3-content__about-fylo {
+  width: 379px;
+}
+.about-fylo__content {
+  width: 339px;
+  position: relative;
+  left: 40px;
+  color: white;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  &::before {
+    position: absolute;
+    content: url(../../img/place.svg);
+    width: 13px;
+    height: 18px;
+    left: -39px;
+  }
+}
+.container3__container3-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 250px;
+  a {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  li {
+    margin-top: 16px;
+    list-style-type: none;
+  }
+}
+.contact__contact-list {
+  position: relative;
+}
+.contact-item1::before {
+  content: url(../../img/phone-in-talk.svg);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+}
+.contact-item2::before {
+  content: url(../../img/email.svg);
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+}
+.footer-nav-2__footer-nav-2-list {
+  display: flex;
+  margin: 0;
+}
+.footer-nav-2-list__footer-nav-2-list-item {
+  margin: 0;
+}
+.footer-nav-2-list__footer-nav-2-list-item ~ .footer-nav-2-list__footer-nav-2-list-item {
+  margin-left: 12px;
+}

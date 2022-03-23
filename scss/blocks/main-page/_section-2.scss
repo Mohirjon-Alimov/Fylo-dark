@@ -1,0 +1,32 @@
+.section-2 {
+  width: 1440px;
+  text-align: center;
+}
+.section-2__work-list {
+  width: 881px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work-list__work-list-item {
+  width: 375px;
+  margin-top: 100px;
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+  }
+  p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+}
